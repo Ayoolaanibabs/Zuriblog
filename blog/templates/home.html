@@ -4,7 +4,9 @@
 {% if user.is_authenticated %}
     Hello {{ user.username }}!
     <p><a href="{% url 'logout' %}">Log out</a></p>
-    <p><a href="{% url 'password_reset' %}">Reset Password</a></p>
+    <div class="nav-right">
+        <a href= "{% url 'post_new' %}">New Blog Post</a>
+    </div>
     {% for post in object_list %}
     <div class = post-entry>
         <h2><a href="{% url 'post_detail' post.pk %}">{{ post.title }}</a></h2>
