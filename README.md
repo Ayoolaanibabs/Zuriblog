@@ -3,7 +3,7 @@ A simple CRUD blog built with django
 ##INSTALLATION
 install all packages
 ```bash
-pip install foobar
+pip install
 ```
 ## Deployed Site
 https://zuri-blog1.herokuapp.com/
