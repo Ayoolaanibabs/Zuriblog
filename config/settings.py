@@ -11,7 +11,6 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
 import os
-##BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 from pathlib import Path
 import dj_database_url
 
