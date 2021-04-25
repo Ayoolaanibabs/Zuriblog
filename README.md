@@ -1,6 +1,6 @@
 # Zuriblog
 A simple CRUD blog built with django
-##INSTALLATION
+## INSTALLATION
 install all packages
 ```bash
 pip install
